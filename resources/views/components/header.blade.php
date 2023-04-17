@@ -2,7 +2,9 @@
     <div class="containers header">
         <div class="header__content">
             <div class="header__logo">
-                <a {{-- href="{{ route('index') }}" --}}>
+                <a
+                 {{-- href="{{ route('index') }}" --}}
+                 >
                     <img src="{{ asset('assets/img/logo.svg') }}" alt="">
                 </a>
             </div>
