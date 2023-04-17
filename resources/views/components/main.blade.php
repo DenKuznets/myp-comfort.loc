@@ -1,5 +1,4 @@
-
 <main class="main">
-    MAIN
+    @include('components.hero')    
 </main>
 

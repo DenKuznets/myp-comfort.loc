@@ -1,4 +1,5 @@
 @import './breakpoints.scss';
+// @import './vars.scss';
 
 * {
     margin: 0;
@@ -40,17 +41,10 @@ body {
     -moz-overflow-x: hidden;
     -ms-overflow-x: hidden;
     -o-overflow-x: hidden;
-    font-family: 'Open Sans';
-    background: #00110A;
-    color: #fff;
+    font-family: 'Merriweather Sans';
+    background: $bg-white;
+    color: $font-black;
     padding-bottom: 20px;
-}
-
-h1,
-h2,
-a,
-button {
-    font-family: 'Alumni Sans';
 }
 
 button {
@@ -58,6 +52,15 @@ button {
     position: relative;
 }
 
+
+h1,h2 {
+    font-family: "Slovic";
+    color: $font-brown;
+}
+
+h3, h4 {
+    color: $font-brown;
+}
 
 h1 {
     font-style: normal;
@@ -125,17 +128,19 @@ body.lock {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: $font-black;
+    font-family: "Merriweather Sans";
 
     &:hover {
-        color: #00AE31;
+        color: $font-brown;
     }
 }
 
 .containers {
     position: relative;
-    min-width: 300px;
+    // min-width: 300px;
     margin: 0 auto;
+    // max-width: 1290px;
 
     @media (max-width: 1460px) {
         padding-right: 30px;

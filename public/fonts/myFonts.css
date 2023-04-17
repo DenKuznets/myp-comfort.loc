@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Merriweather Sans';
+  src: url('./MerriweatherSans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  src: url('./MerriweatherSans-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans';
+  src: url('./MerriweatherSans-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: 'Slovic';
+  src: url('./Slovic_Demo-SlabSerif.otf');
+}

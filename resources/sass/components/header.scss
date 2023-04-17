@@ -1,13 +1,13 @@
 .header {
-  background-color: #00110A;
-  color: #fff;
+  background-color: $bg-white;
+  // color: #fff;
   position: fixed;
-  top: 0;  
+  top: 0;
   width: 100%;
   z-index: 3;
   display: flex;
 
-  @media (max-width: $px850) {
+  @media (max-width: $px1024) {
     position: absolute;
   }
 }
@@ -21,6 +21,7 @@
   max-width: 1290px;
   flex: 1;
   margin: 0 auto;
+  // outline: 1px solid red;
 
   @media (max-width: $px768) {
     justify-content: flex-start;
@@ -52,15 +53,15 @@
 .header__phone {
   font-style: normal;
   font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 25px;
   transition: all 0.4s;
   white-space: nowrap;
   transition: all 0.4s;
 
-  @media (max-width: $px850) {
+  @media (max-width: $px1024) {
     margin-right: 90px;
-  } 
+  }
 
   @media (max-width: 470px) {
     position: fixed;

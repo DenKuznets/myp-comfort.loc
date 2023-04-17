@@ -1,0 +1,32 @@
+// @import '../utils/breakpoints.scss';
+
+.burger {
+    display: none;
+    cursor: pointer;
+    background-color: $bg-white;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 4;
+    border: none;
+
+    @media (max-width: $px1024) {
+        display: block;
+
+        &.burger-hide {
+            display: none;
+        }
+    }
+
+    img {
+        max-width: unset;
+        width: 40px;
+        height: 28px;
+    }
+}
+
+.burger-show {
+    @media (max-width: $px1024) {
+        display: block;
+    }
+}
