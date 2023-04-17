@@ -5,17 +5,17 @@
 @section("content")
 <main class="main">
     <div class="mask mask1">
-        @include("../sections.hero")
-        @include("../sections.advantages")
+        {{-- @include("../sections.hero") --}}
+        {{-- @include("../sections.advantages") --}}
     </div>
     <div class="mask mask2">
-        @include("../sections.services")
-        @include("../sections.stages")
-        @include("../sections.about")
+        {{-- @include("../sections.services") --}}
+        {{-- @include("../sections.stages") --}}
+        {{-- @include("../sections.about") --}}
     </div>
     <div class="mask mask3">
-        @include("../sections.certificate")
-        @include("../sections.contacts")
+        {{-- @include("../sections.certificate") --}}
+        {{-- @include("../sections.contacts") --}}
     </div>
 </main>
 
