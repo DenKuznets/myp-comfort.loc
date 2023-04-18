@@ -2,7 +2,7 @@
     <div class="hero containers">
         <div class="hero__content">
             <div class="hero__text">
-                <h1 class=""><span>Отдыхайте</span> <br>  с комфортом</h1>
+                <h1 class=""><span>Отдыхайте</span><br>с комфортом</h1>
             </div>
         </div>
     </div>

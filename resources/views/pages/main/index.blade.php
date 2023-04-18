@@ -7,6 +7,8 @@
 @section('content')
     <main class="main">
         @include('../sections.hero')
+        <div class="mask mask1">
+            {{-- @include() --}}
+        </div>
     </main>
-
 @endsection

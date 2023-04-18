@@ -64,11 +64,16 @@ body.lock {
     overflow: hidden;
 }
 
+main {
+    // background-color: red;
+    padding-top: 60px;
+}
+
 .containers {
     position: relative;
     // min-width: 300px;
     margin: 0 auto;
-    // max-width: 1290px;
+    max-width: 1290px;
 
     @media (max-width: 1460px) {
         padding-right: 30px;
@@ -100,7 +105,7 @@ body.lock {
 
 .mask {
     z-index: 0;
-    background-size: 1920px;
+    background-size: 100%;
     background-repeat: no-repeat;
 
     @media (max-width: $px1024) {
@@ -113,7 +118,7 @@ body.lock {
 }
 
 .mask1 {
-    background-image: url(/assets/img/masks/mask1.svg);
+    background-image: url(../../../../../public/assets/img/mask1.svg);
 }
 
 .mask2 {
@@ -203,8 +208,8 @@ h1 {
     }
 
     @media (max-width: $px360) {
-        font-size: 40px;
-        line-height: 48px;
+        // font-size: 40px;
+        // line-height: 48px;
     }
 }
 
