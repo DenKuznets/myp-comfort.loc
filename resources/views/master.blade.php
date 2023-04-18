@@ -11,7 +11,7 @@
     {{-- <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" /> --}}
     {{-- <link rel="stylesheet" href="{{ mix('/sass/index.scss') }}"> --}}
-    @vite(['resources/src/assets/scss/main.scss', 'resources/js/app.js'])
+    @vite(['resources/src/assets/main.scss', 'resources/js/app.js'])
 </head>
 
 <body>
