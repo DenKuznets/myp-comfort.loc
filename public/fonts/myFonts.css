@@ -1,16 +1,18 @@
+
+
 @font-face {
-  font-family: 'Merriweather Sans';
-  src: url('./MerriweatherSans-Regular.otf');
+  font-family: 'MerriweatherSans';
+  src: url('./MerriweatherSans-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Merriweather Sans';
-  src: url('./MerriweatherSans-Bold.otf');
+  font-family: 'MerriweatherSans';
+  src: url('./MerriweatherSans-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Merriweather Sans';
-  src: url('./MerriweatherSans-ExtraBold.otf');
+  font-family: 'MerriweatherSans';
+  src: url('./MerriweatherSans-ExtraBold.ttf');
 }
 
 @font-face {

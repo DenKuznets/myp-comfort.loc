@@ -6,9 +6,15 @@
   width: 100%;
   z-index: 3;
   display: flex;
+  padding: 0 30px;
+
 
   @media (max-width: $px1024) {
     position: absolute;
+  }
+
+  @media (max-width: $px768) {
+    padding: 0 20px;
   }
 }
 

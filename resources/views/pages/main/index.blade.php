@@ -6,7 +6,7 @@
     предлагаем паровую баню. Мы поможем вам организовать праздник для детей и взрослых.')
 @section('content')
     <main class="main">
-        @include('../sections.hero')
+        {{-- @include('../sections.hero') --}}
         <div class="mask mask1">
             @include('../sections.about')
         </div>

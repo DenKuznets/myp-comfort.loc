@@ -1,5 +1,5 @@
-<header>
-    <div class="header">
+<header class="">
+    <div class="header ">
         <div class="header__content containers">
             <div class="header__logo">
                 <a
