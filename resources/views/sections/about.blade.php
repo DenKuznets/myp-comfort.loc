@@ -21,13 +21,13 @@
                  </p>
              </div>
              <div class="about__image">
-                 <div class="about__image-col-1">
-                     <img style="margin-bottom: 10px" src="{{ asset('assets/img/about1.jpg') }}" alt="">
-                     <img src="{{ asset('assets/img/about2.jpg') }}" alt="">
+                 <div class="about__image-col-1">                    
+                     <img class="about__img1" style="margin-bottom: 10px" src="{{ asset('assets/img/about1.jpg') }}" alt="">
+                     <img class="about__img2" src="{{ asset('assets/img/about2.jpg') }}" alt="">
                  </div>
                  <div class="about__image-col-2">
-                     <img style="margin-bottom: 10px" src="{{ asset('assets/img/about3.jpg') }}" alt="">
-                     <img src="{{ asset('assets/img/about4.jpg') }}" alt="">
+                     <img class="about__img3" style="margin-bottom: 10px" src="{{ asset('assets/img/about3.jpg') }}" alt="">
+                     <img class="about__img4" src="{{ asset('assets/img/about4.jpg') }}" alt="">
                  </div>
              </div>
          </div>

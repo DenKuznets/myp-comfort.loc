@@ -1,6 +1,5 @@
 .header {
   background-color: $bg-white;
-  // color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -43,11 +42,7 @@
     margin-right: auto;
   }
 
-  img {
-    width: 160px;
-    height: 40px;
-    max-width: unset;
-  }
+  
 }
 
 .header__logo-fixed {
@@ -69,7 +64,7 @@
     margin-right: 90px;
   }
 
-  @media (max-width: 470px) {
+  @media (max-width: 580px) {
     position: fixed;
     top: -40%;
     left: 50%;

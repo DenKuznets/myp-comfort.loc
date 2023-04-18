@@ -5,7 +5,7 @@
                 <a
                  {{-- href="{{ route('index') }}" --}}
                  >
-                    <img src="{{ asset('assets/img/logo.svg') }}" alt="">
+                    <img class="svg" src="{{ asset('assets/img/logo.svg') }}" alt="">
                 </a>
             </div>
             <div class="header__nav">
