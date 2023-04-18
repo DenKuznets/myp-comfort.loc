@@ -1,20 +1,3 @@
-
-
-@font-face {
-  font-family: 'MerriweatherSans';
-  src: url('./MerriweatherSans-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'MerriweatherSans';
-  src: url('./MerriweatherSans-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'MerriweatherSans';
-  src: url('./MerriweatherSans-ExtraBold.ttf');
-}
-
 @font-face {
   font-family: 'Slovic';
   src: url('./Slovic_Demo-SlabSerif.otf');

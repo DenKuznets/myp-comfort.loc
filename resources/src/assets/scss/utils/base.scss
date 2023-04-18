@@ -41,7 +41,7 @@ body {
     -moz-overflow-x: hidden;
     -ms-overflow-x: hidden;
     -o-overflow-x: hidden;
-    font-family: $merriweatherSans;
+    font-family: 'Merriweather Sans';
     background: $bg-white;
     color: $font-black;
     padding-bottom: 20px;
@@ -71,25 +71,8 @@ main {
 .containers {
     outline: 1px solid red;
     position: relative;
-    // min-width: 300px;
     margin: 0 auto;
     max-width: 1290px;
-    // padding: 0 30px;
-
-    // @media (max-width: $px768) {
-    //     padding: 0 20px;
-    // }
-
-    // @media (max-width: 1460px) {
-    //     padding-right: 30px;
-    //     padding-left: 30px;
-
-    //     @media (max-width: 1024px) {
-    //         padding-right: 20px;
-    //         padding-left: 20px;
-    //     }
-    // }
-
 }
 
 .container-fluid {
@@ -163,7 +146,7 @@ img {
 a {
     text-decoration: none;
     color: $font-black;
-    font-family: $merriweatherSans;
+    font-family: 'Merriweather Sans';
 
     &:hover {
         color: $font-brown;
