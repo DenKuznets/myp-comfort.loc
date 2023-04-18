@@ -5,7 +5,7 @@
 @section("content")
 <main class="main">
     <div class="mask mask1">
-        {{-- @include("../sections.hero") --}}
+        @include("../sections.hero")
         {{-- @include("../sections.advantages") --}}
     </div>
     <div class="mask mask2">

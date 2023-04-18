@@ -18,14 +18,9 @@
     <button class="burger">
         <img src="{{ asset('assets/img/burger.svg') }}" alt="">
     </button>
-    {{-- <button class="mobile-menu__close-btn">
-        <img src="{{ asset('assets/img/close-btn.svg') }}" alt="">
-    </button> --}}
-    {{-- @yield('') --}}
-
     @include('components.header')
-    @include('components.main')
-    {{-- <h1>HELLO</h1> --}}
+    {{-- @include('components.main') --}}
+    @yield("content")
 </body>
 
 </html>
