@@ -1,6 +1,6 @@
 <header>
-    <div class="containers header">
-        <div class="header__content">
+    <div class="header">
+        <div class="header__content containers">
             <div class="header__logo">
                 <a
                  {{-- href="{{ route('index') }}" --}}
