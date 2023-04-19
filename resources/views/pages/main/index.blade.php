@@ -12,7 +12,7 @@
             @include('../sections.info') --}}
         </div>
         <div class="mask mask2">
-            
+            <h2>НАШИ БАНИ</h2>
         </div>
     </main>
 @endsection

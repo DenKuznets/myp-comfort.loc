@@ -27,7 +27,7 @@
                     <a href="" class="info__details">Подробнее</a>
                 </div>
                 <div class="info__card">
-                    <p class="info__card-p-bold">Ищем нового сотрудника</p>
+                    <p class="bold">Ищем нового сотрудника</p>
                     <p>Ищем сотрудника в баню на постоянную работу в центре города. Требования: Опыт работы…</p>
                     <a href="" class="info__details">Подробнее</a>
                 </div>
