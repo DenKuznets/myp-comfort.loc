@@ -1,5 +1,53 @@
-import Swiper, { Autoplay, Navigation } from "swiper";
+import Swiper, { Autoplay, Navigation, Pagination } from "swiper";
 import "swiper/css/bundle";
+
+// bath swiper
+if (document.querySelector(".bath__swiper")) {
+    const swiper = new Swiper(".bath__swiper", {
+        // Optional parameters
+        // direction: "vertical",
+        // loop: true,
+        slidesPerView: 1,
+        modules: [Navigation, Pagination],
+        // spaceBetween: 30,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: ".swiper-scrollbar",
+        // },
+        // breakpoints: {
+        //     1290: {
+        //         slidesPerView: 4,
+        //     },
+        //     780: {
+        //         slidesPerView: 3,
+        //     },
+        //     600: {
+        //         slidesPerView: 2.4,
+        //     },
+        //     450: {
+        //         slidesPerView: 1.5,
+        //     },
+        //     359: {
+        //         slidesPerView: 1.2,
+        //     },
+        //     1: {
+        //         slidesPerView: 1,
+        //     },
+        // },
+    });
+}
 
 
 //certificates SWIPER

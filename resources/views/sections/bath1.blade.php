@@ -25,7 +25,41 @@
                 <button id="popAp" class="btn bath__btn">Стоимость</button>
             </div>
             <div class="animate__animated bath__image">
-                <img src="{{ asset('assets/img/bath-img.png') }}" alt="">
+                {{-- <img src="{{ asset('assets/img/bath-img.png') }}" alt=""> --}}
+                <div class="bath__swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="bath__card">
+                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bath__card">
+                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        {{-- <div class="swiper-slide">
+                            <div class="bath__card">
+                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bath__card">
+                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
+                            </div>
+                        </div> --}}
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
+                        <!-- <div class="swiper-button-prev green"></div>
+          <div class="swiper-button-next green"></div> -->
+
+                        <!-- If we need scrollbar -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
