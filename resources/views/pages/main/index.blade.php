@@ -13,6 +13,8 @@
         </div>
         <div class="mask mask2">
             <h2>НАШИ БАНИ</h2>
+            @include('../sections.bath1')
+
         </div>
     </main>
 @endsection
