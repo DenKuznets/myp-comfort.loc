@@ -93,20 +93,26 @@ main {
 
 .mask {
     z-index: 0;
-    background-size: 100%;
+    // background-size: 100%;
     background-repeat: no-repeat;
 
     @media (max-width: $px1024) {
-        background: none;
+        // background: none;
     }
 
     @media (min-width: 1921px) {
-        background-size: 100%;
+        // background-size: 100%;
     }
 }
 
 .mask1 {
     background-image: url(../../../../../public/assets/img/mask1.svg);
+    outline: 1px solid black;
+    background-position: center left;
+    @media only screen and (max-width: $px480) {
+        background-position: left 5%;
+        background-size: 100vw;
+    }
 }
 
 .mask2 {

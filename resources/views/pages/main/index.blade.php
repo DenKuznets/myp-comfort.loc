@@ -8,7 +8,7 @@
     <main class="main">
         {{-- @include('../sections.hero') --}}
         <div class="mask mask1">
-            {{-- @include('../sections.about') --}}
+            @include('../sections.about')
             @include('../sections.info')
         </div>
     </main>
