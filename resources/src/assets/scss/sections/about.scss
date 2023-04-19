@@ -57,7 +57,7 @@
         max-width: 650px;
         display: flex;
         align-items: center;
-        background-color: green;
+        // background-color: green;
 
         @media (max-width: $px1024) {
             max-width: unset;
@@ -68,15 +68,15 @@
         @media (max-width: $px768) {
             max-width: unset;
             margin-top: unset;
-            min-height: 500px;
+            // min-height: 500px;
         }
 
         @media (max-width: $px480) {
-            min-height: 400px;
+            // min-height: 400px;
         }
 
         @media (max-width: $px360) {
-            min-height: 300px;
+            // min-height: 300px;
         }
     }
 
@@ -105,6 +105,14 @@
         @media only screen and (max-width: $px1024) {
             height: 450px;
         }
+
+        @media only screen and (max-width: $px768) {
+            height: 400px;
+        }
+
+        @media only screen and (max-width: $px480) {
+            height: 250px;
+        }
     }
 
     &__img2,
@@ -112,7 +120,16 @@
         @media only screen and (max-width: $px1024) {
             height: 300px;
         }
+
+        @media only screen and (max-width: $px768) {
+            height: 200px;
+        }
+
+        @media only screen and (max-width: $px480) {
+            height: 150px;
+        }
     }
+
     img {
         border-radius: 10px;
     }
