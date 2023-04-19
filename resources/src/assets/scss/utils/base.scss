@@ -109,6 +109,7 @@ main {
     background-image: url(../../../../../public/assets/img/mask1.svg);
     outline: 1px solid black;
     background-position: center left;
+
     @media only screen and (max-width: $px480) {
         background-position: left 5%;
         background-size: 100vw;
@@ -116,9 +117,14 @@ main {
 }
 
 .mask2 {
-    background-image: url(/assets/img/masks/mask2.svg);
-    background-position: 50% 72%;
-
+    background: 
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), 
+    rgba(255, 255, 255, 0.2)), 
+    url(../../../../../public/assets/img/mask2.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 101%;
 }
 
 .mask3 {
