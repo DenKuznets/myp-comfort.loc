@@ -6,9 +6,10 @@
     background-color: rgba(0,0,0,0);
     position: fixed;
     top: 15px;
-    right: 20px;
+    right: 30px;
     z-index: 4;
     border: none;
+    padding: 0;
 
     @media (max-width: $px1024) {
         display: block;
@@ -16,6 +17,10 @@
         &.burger-hide {
             display: none;
         }
+    }
+
+    @media only screen and (max-width: $px768) {
+        right: 20px;
     }
 
     img {

@@ -41,7 +41,7 @@ body {
     -moz-overflow-x: hidden;
     -ms-overflow-x: hidden;
     -o-overflow-x: hidden;
-    font-family: 'Merriweather Sans';
+    font-family: 'Open Sans';
     background: $bg-white;
     color: $font-black;
     padding-bottom: 20px;
@@ -146,10 +146,13 @@ img {
 a {
     text-decoration: none;
     color: $font-black;
-    font-family: 'Merriweather Sans';
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
 
     &:hover {
-        color: $font-brown;
+        color: $font-red;
     }
 }
 
@@ -157,7 +160,6 @@ button {
     cursor: pointer;
     position: relative;
 }
-
 
 h1,
 h2 {
@@ -209,6 +211,12 @@ h2 {
     letter-spacing: 0.7px;
     z-index: 1;
     position: relative;
+
+    @media (max-width: $px480) {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 130%;
+    }
 }
 
 h4 {
