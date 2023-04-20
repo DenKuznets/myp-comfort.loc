@@ -23,13 +23,13 @@
                  <button class="btn">Стоимость</button>
              </div>
              <div class="laundry__image">
-                 <div class="laundry__image-row-1">
-                     <img class="laundry__img1" src="{{ asset('assets/img/laundry1.jpg') }}" alt="">
-                     <img class="laundry__img2" src="{{ asset('assets/img/laundry2.jpg') }}" alt="">
+                 <div class="laundry__image-row laundry__image-row-top">
+                     <img class="left" src="{{ asset('assets/img/laundry1.jpg') }}" alt="">
+                     <img class="right" src="{{ asset('assets/img/laundry2.jpg') }}" alt="">
                  </div>
-                 <div class="laundry__image-row-2">
-                     <img class="laundry__img3" src="{{ asset('assets/img/laundry3.jpg') }}" alt="">
-                     <img class="laundry__img4" src="{{ asset('assets/img/laundry4.jpg') }}" alt="">
+                 <div class="laundry__image-row laundry__image-row-bottom">
+                     <img class="left" src="{{ asset('assets/img/laundry3.jpg') }}" alt="">
+                     <img class="right" src="{{ asset('assets/img/laundry4.jpg') }}" alt="">
                  </div>
              </div>
          </div>

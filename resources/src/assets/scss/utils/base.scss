@@ -132,7 +132,8 @@ body.modal-open {
 }
 
 // графические элементы нельзя выделить мышкой
-img, mask {
+img,
+mask {
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
