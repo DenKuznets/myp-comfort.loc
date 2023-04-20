@@ -139,7 +139,7 @@ main {
     background:
         linear-gradient(0deg, rgba(255, 255, 255, 0.2),
             rgba(255, 255, 255, 0.2)),
-        url(../../../../../public/assets/img/mask2.png);
+        url(../../../../../public/assets/img/mask2.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@ main {
 }
 
 .mask3 {
-    background-image: url(/assets/img/masks/mask3.svg);
+    background-image: url(../../../../../public/assets/img/mask3.svg);
     background-position: 50% 101%;
 }
 
@@ -320,4 +320,5 @@ img {
     flex-direction: column;
     gap: 30px;
     align-items: center;
+    padding-bottom: 80px;
 }

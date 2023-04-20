@@ -9,15 +9,18 @@
     <main class="main">
         {{-- @include('../sections.hero') --}}
         <div class="mask mask1">
-            {{-- @include('../sections.about')
-            @include('../sections.info') --}}
+            {{-- @include('../sections.about') --}}
+            {{-- @include('../sections.info') --}}
         </div>
-        <div class="mask mask2">
+        {{-- <div class="mask mask2">
             <div class="baths">
                 <h2>НАШИ БАНИ</h2>
                 @include('../sections.bath1')
                 @include('../sections.bath2')
             </div>
+        </div> --}}
+        <div class="mask mask3">
+            @include('../sections.rooms')
         </div>
     </main>
 @endsection
