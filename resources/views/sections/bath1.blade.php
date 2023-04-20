@@ -6,60 +6,27 @@
                 <h4>г. Арзамас, ул. Калинина, д. 32</h4>
                 <p>Русская парная, веники, массажное кресло, парикмахерская, буфет, душевое отделение</p>
                 <div class="bath__schedule">
-                    <div class="bath__days">
+                    <div class="bath__schedule-days">
                         <h4>График работы</h4>
-                        <p class="bold">
-                            Пн: выходной <br> <br>
-                            Вт: санитарный день <br> <br>
-                            Ср-Вс: круглосуточно
-                        </p>
+                        <p class="bold"> Пн: выходной</p>
+                        <p class="bold">Вт: санитарный день</p>
+                        <p class="bold">Ср-Вс: круглосуточно</p>
                     </div>
-                    <div class="bath__hours">
+                    <div class="bath__schedule-hours">
                         <h4>Ежедневные сеансы</h4>
-                        <p class="bold">с 12.00 до 14.00 <br><br>
-                            с 14.30 до 16.30 <br><br>
-                            с 17.00 до 19.00 <br><br>
-                            с 19.30 до 21.30</p>
+                        <p class="bold">с 12.00 до 14.00</p>
+                        <p class="bold">с 14.30 до 16.30 </p>
+                        <p class="bold">с 17.00 до 19.00 </p>
+                        <p class="bold">с 19.30 до 21.30</p>
                     </div>
                 </div>
-                <button id="popAp" class="btn bath__btn">Стоимость</button>
+                <button id="popAp" class="btn bath__btn">
+                    Стоимость
+                </button>
             </div>
             <div class="animate__animated bath__image">
-                {{-- <img src="{{ asset('assets/img/bath-img.png') }}" alt=""> --}}
-                <div class="bath__swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="bath__card">
-                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bath__card">
-                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
-                            </div>
-                        </div>
-                        {{-- <div class="swiper-slide">
-                            <div class="bath__card">
-                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bath__card">
-                                <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt="">
-                            </div>
-                        </div> --}}
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                        <!-- If we need navigation buttons -->
-                        <!-- <div class="swiper-button-prev green"></div>
-          <div class="swiper-button-next green"></div> -->
-
-                        <!-- If we need scrollbar -->
-                        <!-- <div class="swiper-scrollbar"></div> -->
-                    </div>
-                </div>
+                {{-- <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt=""> --}}
+                @include('../components/swiper')
             </div>
         </div>
     </div>

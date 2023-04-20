@@ -1,10 +1,20 @@
-.swiper-wrapper {
-    margin: 0 auto;
+.swiper-slide img, .swiper-slide picture {
+    display: block;
+    // width: fit-content;
+    // flex-shrink: 100 !important;
+    height: 100%;
+    object-fit: cover;
+    // max-width: unset;
+    // width: unset;
 }
 
-.bath__swiper {
-    width: 100%;
-    // display: none;
-    // height: 440px;
-    // outline: 1px solid red;
+.swiper-slide{
+    // width: fit-content;
+}
+
+.swiper {
+    // width: 100%;
+    // height: 100%;
+    // width: 500px;
+    // height: 500px;
 }

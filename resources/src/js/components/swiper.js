@@ -1,102 +1,69 @@
 import Swiper, { Autoplay, Navigation, Pagination } from "swiper";
-import "swiper/css/bundle";
+// import "swiper/css/bundle";
+import "swiper/css";
+// import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-// bath swiper
-if (document.querySelector(".bath__swiper")) {
-    const swiper = new Swiper(".bath__swiper", {
-        // Optional parameters
-        // direction: "vertical",
-        // loop: true,
-        slidesPerView: 1,
-        modules: [Navigation, Pagination],
-        // spaceBetween: 30,
+// console.log(document.querySelector(".mySwiper"));
 
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
+// test swiper
+const swiper = new Swiper(".mySwiper", {
+    modules: [Pagination],
+    slidesPerView: 'auto',
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
 
-        // Navigation arrows
-        // navigation: {
-        //     nextEl: ".swiper-button-next",
-        //     prevEl: ".swiper-button-prev",
-        // },
-
-        // And if we need scrollbar
-        // scrollbar: {
-        //     el: ".swiper-scrollbar",
-        // },
-        // breakpoints: {
-        //     1290: {
-        //         slidesPerView: 4,
-        //     },
-        //     780: {
-        //         slidesPerView: 3,
-        //     },
-        //     600: {
-        //         slidesPerView: 2.4,
-        //     },
-        //     450: {
-        //         slidesPerView: 1.5,
-        //     },
-        //     359: {
-        //         slidesPerView: 1.2,
-        //     },
-        //     1: {
-        //         slidesPerView: 1,
-        //     },
-        // },
-    });
-}
 
 
 //certificates SWIPER
-if (document.querySelector(".mySwiper")) {
-    const swiper = new Swiper(".mySwiper", {
-        // Optional parameters
-        // direction: "vertical",
-        // loop: true,
-        slidesPerView: 4,
-        // modules: [Navigation],
-        spaceBetween: 30,
+// if (document.querySelector(".mySwiper")) {
+//     const swiper = new Swiper(".mySwiper", {
+//         // Optional parameters
+//         // direction: "vertical",
+//         // loop: true,
+//         slidesPerView: 4,
+//         // modules: [Navigation],
+//         spaceBetween: 30,
 
-        // If we need pagination
-        // pagination: {
-        //   el: ".swiper-pagination",
-        // },
+//         // If we need pagination
+//         // pagination: {
+//         //   el: ".swiper-pagination",
+//         // },
 
-        // Navigation arrows
-        // navigation: {
-        //     nextEl: ".swiper-button-next",
-        //     prevEl: ".swiper-button-prev",
-        // },
+//         // Navigation arrows
+//         // navigation: {
+//         //     nextEl: ".swiper-button-next",
+//         //     prevEl: ".swiper-button-prev",
+//         // },
 
-        // And if we need scrollbar
-        // scrollbar: {
-        //     el: ".swiper-scrollbar",
-        // },
-        breakpoints: {
-            1290: {
-                slidesPerView: 4,
-            },
-            780: {
-                slidesPerView: 3,
-            },
-            600: {
-                slidesPerView: 2.4,
-            },
-            450: {
-                slidesPerView: 1.5,
-            },
-            359: {
-                slidesPerView: 1.2,
-            },
-            1: {
-                slidesPerView: 1,
-            },
-        },
-    });
-}
+//         // And if we need scrollbar
+//         // scrollbar: {
+//         //     el: ".swiper-scrollbar",
+//         // },
+//         breakpoints: {
+//             1290: {
+//                 slidesPerView: 4,
+//             },
+//             780: {
+//                 slidesPerView: 3,
+//             },
+//             600: {
+//                 slidesPerView: 2.4,
+//             },
+//             450: {
+//                 slidesPerView: 1.5,
+//             },
+//             359: {
+//                 slidesPerView: 1.2,
+//             },
+//             1: {
+//                 slidesPerView: 1,
+//             },
+//         },
+//     });
+// }
 
 // Слайдер на первом экране
 if (document.querySelector(".firstScreenSwiper")) {
