@@ -20,7 +20,11 @@
             </div>
         </div> --}}
         <div class="mask mask3">
-            @include('../sections.rooms')
+            {{-- @include('../sections.rooms') --}}
+        </div>
+        <div class="mask mask4">
+            @include('../sections.laundry')
+
         </div>
     </main>
 @endsection

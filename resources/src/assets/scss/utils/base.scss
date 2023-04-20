@@ -115,6 +115,17 @@ main {
     background-size: auto 100%;
 }
 
+.mask4 {
+    background-image: url(../../../../../public/assets/img/mask4.svg);
+    // outline: 1px solid black;
+    background-position: center left;
+
+    @media only screen and (max-width: $px480) {
+        background-position: left 5%;
+        background-size: 100vw;
+    }
+}
+
 body.modal-open {
     height: 100vh;
     overflow-y: hidden;
