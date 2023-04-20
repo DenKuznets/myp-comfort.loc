@@ -4,8 +4,6 @@ import "swiper/css";
 // import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// console.log(document.querySelector(".mySwiper"));
-
 // test swiper
 const swiper = new Swiper(".mySwiper", {
     modules: [Pagination],
