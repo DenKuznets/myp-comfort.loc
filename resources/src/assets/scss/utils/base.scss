@@ -1,33 +1,6 @@
 @import './breakpoints.scss';
 @import './vars.scss';
 
-// * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//     // color: #fff;
-// }
-
-/* Скролл бар */
-// * {
-//     scrollbar-width: thin;
-//     scrollbar-color: rgb(71, 71, 71) rgba(108, 108, 108, 0.5);
-// }
-
-// *::-webkit-scrollbar {
-//     height: 14px;
-//     width: 10px;
-// }
-
-// *::-webkit-scrollbar-track {
-//     background: rgba(108, 108, 108, 0.5);
-// }
-
-// *::-webkit-scrollbar-thumb {
-//     background-color: rgb(136 136 136);
-//     border-radius: 3px;
-//     border: 10px solid rgb(136 136 136);
-// }
 
 html {
     scroll-behavior: smooth;
@@ -83,14 +56,6 @@ main {
     animation-timing-function: ease;
 }
 
-.animate__zoomIn {
-    animation-duration: .8s;
-}
-
-.animate__backInDown {
-    animation-duration: .8s;
-}
-
 .mask {
     z-index: 0;
     // background-size: 100%;
@@ -107,7 +72,7 @@ main {
 
 .mask1 {
     background-image: url(../../../../../public/assets/img/mask1.svg);
-    outline: 1px solid black;
+    // outline: 1px solid black;
     background-position: center left;
 
     @media only screen and (max-width: $px480) {
@@ -122,10 +87,7 @@ main {
     flex-direction: column;
     align-items: center;
 
-    h2 {
-        margin-top: 70px;
-        margin-bottom: 40px;
-    }
+
 }
 
 .mask2::before {
@@ -149,7 +111,7 @@ main {
 
 .mask3 {
     background-image: url(../../../../../public/assets/img/mask3.svg);
-    background-position: 50% 101%;
+    // background-position: center right;
 }
 
 body.modal-open {
@@ -157,17 +119,8 @@ body.modal-open {
     overflow-y: hidden;
 }
 
-.mySlide {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.dot,
-.ellipse,
-img {
+// графические элементы нельзя выделить мышкой
+img, mask {
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -200,29 +153,12 @@ h1 {
     font-weight: 500;
     font-size: 75px;
     line-height: 130%;
-    // letter-spacing: 0.7px;
-
-    // @media (max-width: $px1024) {
-    //     font-size: 40px;
-    //     line-height: 48px;
-    // }
-
-    // @media (max-width: $px768) {
-    //     font-size: 60px;
-    //     line-height: 72px;
-    //     text-align: center;
-    // }
 
     @media (max-width: $px480) {
         font-weight: 500;
         font-size: 50px;
         line-height: 130%;
         text-align: center;
-    }
-
-    @media (max-width: $px360) {
-        // font-size: 40px;
-        // line-height: 48px;
     }
 }
 
@@ -233,7 +169,6 @@ h2 {
     font-weight: 500;
     font-size: 50px;
     line-height: 130%;
-    // letter-spacing: 0.7px;
     z-index: 1;
     position: relative;
 
@@ -276,11 +211,8 @@ p.bold {
 }
 
 img {
-    // position: relative;
     width: 100%;
     height: 100%;
-    // border-radius: 10px;
-    object-position: 0 0;
     object-fit: cover;
 }
 
@@ -321,4 +253,9 @@ img {
     gap: 30px;
     align-items: center;
     padding-bottom: 80px;
+
+    h2 {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
 }
