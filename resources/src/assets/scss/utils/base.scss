@@ -263,12 +263,19 @@ img {
 .baths {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    // gap: 30px;
     align-items: center;
     padding-bottom: 80px;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 
     h2 {
         margin-top: 70px;
         margin-bottom: 40px;
     }
 }
+

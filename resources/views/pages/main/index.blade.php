@@ -15,15 +15,18 @@
         <div class="mask mask2">
             <div class="baths">
                 <h2>НАШИ БАНИ</h2>
-                @include('../sections.bath2')
-                @include('../sections.bath3')
+                <div class="baths__container">
+
+                    @include('../sections.bath2')
+                    @include('../sections.bath3')
+                </div>
             </div>
         </div>
         <div class="mask mask3">
             @include('../sections.rooms')
         </div>
         <div class="mask mask4">
-            @include('../sections.laundry') 
+            @include('../sections.laundry')
             @include('../sections.documents')
         </div>
         @include('../sections.contacts')

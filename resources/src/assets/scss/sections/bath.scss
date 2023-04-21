@@ -7,7 +7,7 @@
     position: relative;
     background: rgba(243, 238, 235, 0.8);
     width: 100%;
-
+    height: 610px;
     @media (max-width: $bath-column) {
       flex-direction: column;
       align-items: center;

@@ -1,4 +1,4 @@
-<section id="bath1">
+<section id="bath2">
     <div class="bath containers">
         <div class="bath__content">
             <div class="animate__animated bath__text">
