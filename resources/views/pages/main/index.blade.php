@@ -26,7 +26,6 @@
             {{-- @include('../sections.laundry')  --}}
             {{-- @include('../sections.documents') --}}
         </div>
-        @include('../sections.contacts')
-
+        {{-- @include('../sections.contacts') --}}
     </main>
 @endsection
