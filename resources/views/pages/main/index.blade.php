@@ -12,13 +12,13 @@
             {{-- @include('../sections.about') --}}
             {{-- @include('../sections.info') --}}
         </div>
-        {{-- <div class="mask mask2">
+        <div class="mask mask2">
             <div class="baths">
                 <h2>НАШИ БАНИ</h2>
-                @include('../sections.bath1')
                 @include('../sections.bath2')
+                @include('../sections.bath3')
             </div>
-        </div> --}}
+        </div>
         <div class="mask mask3">
             {{-- @include('../sections.rooms') --}}
         </div>

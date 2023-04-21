@@ -19,15 +19,20 @@
   }
 
   &__text {
+    * {
+      outline: 1px solid red;
+    }
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 40px 30px;
     position: relative;
+    width: 710px;
+    // width: 100%;
 
     @media only screen and (max-width: $bath-schedule-column) {
       padding: 40px 0;
-
+      width: 100%;
     }
 
     h3 {
