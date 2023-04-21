@@ -2,16 +2,64 @@ import Swiper, { Autoplay, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// test swiper
-const swiper = new Swiper(".bathSwiper", {
-    modules: [Pagination],
-    slidesPerView: "auto",
-    pagination: {
-        el: ".swiper-pagination",
-    },
-});
+// bath swiper
+if (document.querySelector(".bathSwiper")) {
+    const bathSwiper = new Swiper(".bathSwiper", {
+        modules: [Pagination],
+        slidesPerView: "auto",
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+}
 
+// docs swiper
+if (document.querySelector(".docsSwiper")) {
+    const swiper = new Swiper(".docsSwiper", {
+        // Optional parameters
+        // direction: "vertical",
+        // loop: true,
+        slidesPerView: 4,
+        // modules: [Navigation],
+        spaceBetween: 30,
 
+        // If we need pagination
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+
+        // Navigation arrows
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: ".swiper-scrollbar",
+        // },
+        breakpoints: {
+            1290: {
+                slidesPerView: 4,
+            },
+            780: {
+                slidesPerView: 3,
+            },
+            600: {
+                slidesPerView: 2.4,
+            },
+            450: {
+                slidesPerView: 1.5,
+            },
+            359: {
+                slidesPerView: 1.2,
+            },
+            1: {
+                slidesPerView: 1,
+            },
+        },
+    });
+}
 
 //certificates SWIPER
 // if (document.querySelector(".mySwiper")) {

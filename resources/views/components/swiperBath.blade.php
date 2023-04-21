@@ -1,6 +1,6 @@
 <div class="swiper bathSwiper">
     <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide bathSlide">
             <picture>
                 <source srcset="{{ asset('assets/img/bath1920.jpg') }}" media="(min-width: 1025px)">
                 <source srcset="{{ asset('assets/img/bath1024.jpg') }}" media="(max-width: 1024px)">
@@ -10,7 +10,7 @@
                 <img src="{{ asset('assets/img/bath1920.jpg') }}" alt="">
             </picture>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide bathSlide">
             <picture>
                 <source srcset="{{ asset('assets/img/bath1920.jpg') }}" media="(min-width: 1025px)">
                 <source srcset="{{ asset('assets/img/bath1024.jpg') }}" media="(max-width: 1024px)">
@@ -20,7 +20,7 @@
                 <img src="{{ asset('assets/img/bath1920.jpg') }}" alt="">
             </picture>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide bathSlide">
             <picture>
                 <source srcset="{{ asset('assets/img/bath1920.jpg') }}" media="(min-width: 1025px)">
                 <source srcset="{{ asset('assets/img/bath1024.jpg') }}" media="(max-width: 1024px)">
@@ -30,7 +30,7 @@
                 <img src="{{ asset('assets/img/bath1920.jpg') }}" alt="">
             </picture>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide bathSlide">
             <picture>
                 <source srcset="{{ asset('assets/img/bath1920.jpg') }}" media="(min-width: 1025px)">
                 <source srcset="{{ asset('assets/img/bath1024.jpg') }}" media="(max-width: 1024px)">

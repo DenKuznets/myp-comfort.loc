@@ -1,29 +1,28 @@
-    <section class="section" id="certificate">
-      <div class="ellipse ellipse2"></div>
-      <div class="certificate__content">
+    <section id="documents">
+      <div class="documents__content">
 
-        <h2>Сертификаты</h2>
-        <div class="mySwiper">
+        <h2>Документы</h2>
+        <div class="docsSwiper swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-              <div class="certificate__card">
+              <div class="documents__card">
                 <img src="{{ asset('assets/img/doc1.jpg') }}" alt="">
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="certificate__card">
+              <div class="documents__card">
                 <img src="{{ asset('assets/img/doc2.jpg') }}" alt="">
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="certificate__card">
+              <div class="documents__card">
                 <img src="{{ asset('assets/img/doc3.jpg') }}" alt="">
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="certificate__card">
+              <div class="documents__card">
                 <img src="{{ asset('assets/img/doc4.jpg') }}" alt="">
               </div>
             </div>

@@ -1,13 +1,11 @@
-#certificate {
+#documents {
 
   @media (max-width: $px768) {
     padding-right: 0;
   }
 
-  h2 {
-    
+  h2 {    
     margin-bottom: 40px;
-
     @media (max-width: $px480) {
       text-align: center;
     }
@@ -19,13 +17,13 @@
   }
 }
 
-.certificate__content {
+.documents__content {
   max-width: 1290px;
   margin: 0 auto;
   margin-top: 90px;
 }
 
-.certificate__card {
+.documents__card {
   display: flex;
   justify-content: center;
   align-items: center;
