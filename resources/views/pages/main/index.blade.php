@@ -7,10 +7,10 @@
     предлагаем паровую баню. Мы поможем вам организовать праздник для детей и взрослых.')
 @section('content')
     <main class="main">
-        {{-- @include('../sections.hero') --}}
+        @include('../sections.hero')
         <div class="mask mask1">
-            {{-- @include('../sections.about') --}}
-            {{-- @include('../sections.info') --}}
+            @include('../sections.about')
+            @include('../sections.info')
         </div>
         <div class="mask mask2">
             <div class="baths">
@@ -20,12 +20,12 @@
             </div>
         </div>
         <div class="mask mask3">
-            {{-- @include('../sections.rooms') --}}
+            @include('../sections.rooms')
         </div>
         <div class="mask mask4">
-            {{-- @include('../sections.laundry')  --}}
-            {{-- @include('../sections.documents') --}}
+            @include('../sections.laundry') 
+            @include('../sections.documents')
         </div>
-        {{-- @include('../sections.contacts') --}}
+        @include('../sections.contacts')
     </main>
 @endsection

@@ -62,6 +62,7 @@
     }
 
     &__nav {
+        margin-bottom: auto;
         @media only screen and (max-width: $px1024) {
             margin-bottom: 30px;
         }
