@@ -23,9 +23,10 @@
             {{-- @include('../sections.rooms') --}}
         </div>
         <div class="mask mask4">
-            {{-- @include('../sections.laundry') --}}
-            @include('../sections.documents')
-
+            {{-- @include('../sections.laundry')  --}}
+            {{-- @include('../sections.documents') --}}
         </div>
+        @include('../sections.contacts')
+
     </main>
 @endsection

@@ -118,7 +118,7 @@ main {
 .mask4 {
     background-image: url(../../../../../public/assets/img/mask4.svg);
     // outline: 1px solid black;
-    background-position: center left;
+    background-position: left 79%;
 
     @media only screen and (max-width: $px480) {
         background-position: left 5%;

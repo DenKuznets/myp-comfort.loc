@@ -1,3 +1,3 @@
 import './swiper'
 import './fancybox'
-// import './yamaps/_index'
+import './yamaps/_index'
