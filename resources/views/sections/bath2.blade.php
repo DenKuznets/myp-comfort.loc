@@ -25,7 +25,7 @@
                 </button>
             </div>
             <div class="animate__animated bath__image">
-                @include('../components/swiper')
+                @include('../components/swiperBath')
             </div>
         </div>
     </div>

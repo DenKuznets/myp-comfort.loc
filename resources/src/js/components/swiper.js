@@ -1,13 +1,11 @@
 import Swiper, { Autoplay, Navigation, Pagination } from "swiper";
-// import "swiper/css/bundle";
 import "swiper/css";
-// import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // test swiper
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".bathSwiper", {
     modules: [Pagination],
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     pagination: {
         el: ".swiper-pagination",
     },

@@ -26,7 +26,7 @@
             </div>
             <div class="animate__animated bath__image">
                 {{-- <img src="{{ asset('assets/img/bath1-1.jpg') }}" alt=""> --}}
-                @include('../components/swiper')
+                @include('../components/swiperBath')
             </div>
         </div>
     </div>

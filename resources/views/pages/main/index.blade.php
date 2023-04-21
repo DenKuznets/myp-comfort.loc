@@ -23,7 +23,8 @@
             {{-- @include('../sections.rooms') --}}
         </div>
         <div class="mask mask4">
-            @include('../sections.laundry')
+            {{-- @include('../sections.laundry') --}}
+            @include('../sections.documents')
 
         </div>
     </main>
