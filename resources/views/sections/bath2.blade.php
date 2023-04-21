@@ -6,13 +6,13 @@
                 <h4>г. Арзамас, ул. Калинина, д. 32</h4>
                 <p>Русская парная, веники, массажное кресло, парикмахерская, буфет, душевое отделение</p>
                 <div class="bath__schedule">
-                    <div class="bath__schedule-days">
+                    <div class="bath__schedule-column">
                         <h4>График работы</h4>
                         <p class="bold"> Пн: выходной</p>
                         <p class="bold">Вт: санитарный день</p>
                         <p class="bold">Ср-Вс: круглосуточно</p>
                     </div>
-                    <div class="bath__schedule-hours">
+                    <div class="bath__schedule-column">
                         <h4>Ежедневные сеансы</h4>
                         <p class="bold">с 12.00 до 14.00</p>
                         <p class="bold">с 14.30 до 16.30 </p>
