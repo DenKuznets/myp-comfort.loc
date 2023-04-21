@@ -36,7 +36,17 @@
     }
 
     &-img {
-      background-color: white;
+      background-color: white;      
+      img {        
+        outline: 1px solid red;
+        @media only screen and (max-width: $px480) {
+          // height: 300px;
+        }
+
+        @media only screen and (max-width: $px360) {
+          // height: 200px;
+        }
+      }
     }
   }
 
