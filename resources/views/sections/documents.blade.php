@@ -1,12 +1,12 @@
     <section id="documents">
-      <div class="documents__content">
+      <div class="documents containers">
 
         <h2>Документы</h2>
         <div class="docsSwiper swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
+            <div class="swiper-slide documents__slide">
               <div class="documents__card">
                 <img src="{{ asset('assets/img/doc1.jpg') }}" alt="">
               </div>
