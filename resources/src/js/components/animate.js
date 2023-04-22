@@ -62,10 +62,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // #laundry
     const laundryText = document.querySelectorAll(".laundry__text");
     const laundryImage = document.querySelectorAll(".laundry__image");
-    if (aboutText) {
+    if (laundryText) {
         animate(laundryText, backInLeft);
     }
-    if (aboutImage) {
+    if (laundryImage) {
         animate(laundryImage, backInRight);
     }
 
@@ -94,5 +94,13 @@ document.addEventListener("DOMContentLoaded", () => {
         if (contactsMap) {
             animate(contactsMap, backInRight);
         }
+        if (laundryText) {
+            animate(laundryText, backInLeft);
+        }
+        if (laundryImage) {
+            animate(laundryImage, backInRight);
+        }
+        if (roomsCard1) animate(roomsCard1, zoomInLeft);
+        if (roomsCard2) animate(roomsCard2, zoomInRight);
     });
 });
