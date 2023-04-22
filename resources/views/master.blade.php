@@ -15,6 +15,9 @@
     <button class="burger">
         <img src="{{ asset('assets/img/burger.svg') }}" alt="">
     </button>
+     <button class="mobile-menu__close-btn">
+        <img src="{{ asset('assets/img/close-btn.svg') }}" alt="">
+    </button>
     @include('components.header')
     @yield('content')
     @include('components.footer')

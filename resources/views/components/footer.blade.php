@@ -2,6 +2,9 @@
     <div class="footer containers">
         <div class="footer__block1">
             <div class="footer__logo">
+                <a
+                 {{-- href="{{route("index)}}" --}}
+                ></a>
                 <img class="svg" src="{{ asset('assets/img/logo-footer.svg') }}" alt="">
             </div>
             <div class="footer__rights">© <?php echo date('Y'); ?> , Все права защищены</div>

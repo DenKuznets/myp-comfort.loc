@@ -9,5 +9,6 @@ import './pop-ap-services'
 import './animate'
 // import './yandexMaps'
 import './swiper'
+import "./mobileMenu";
 // import './imask'
 // import './buttonsPress'
