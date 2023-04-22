@@ -3,7 +3,7 @@
 
          <div class="about__content ">
 
-             <div class="about__text">
+             <div class="about__text animate__animated">
                  <h2>О предприятии</h2>
                  <p>Наша баня работает с 2010 года. У нас вы можете окунуться в настоящую русскую баньку, попариться и
                      расслабиться. Также мы можем организовать для вас банный день или банный квест. Если вы хотите
@@ -20,7 +20,7 @@
                      Мы поможем вам организовать праздник для детей и взрослых.
                  </p>
              </div>
-             <div class="about__image">
+             <div class="about__image animate__animated">
                  <div class="about__image-col-1">                    
                      <img class="about__img1" style="margin-bottom: 10px" src="{{ asset('assets/img/about1.jpg') }}" alt="">
                      <img class="about__img2" src="{{ asset('assets/img/about2.jpg') }}" alt="">

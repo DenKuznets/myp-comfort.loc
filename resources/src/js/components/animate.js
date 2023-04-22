@@ -26,13 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    //tech-auto animations
-    // basic class
-    const animateClass = "animate__animated";
-    // delays
-    const delay03 = "animate__delay-03s";
-    const delay06 = "animate__delay-06s";
-    const delay09 = "animate__delay-09s";
+    //myp comfort animations
     // animation types
     const zoomIn = "animate__zoomIn";
     const backInRight = "animate__backInRight";
@@ -43,123 +37,62 @@ document.addEventListener("DOMContentLoaded", () => {
     const flip = "animate__flip";
     const lightSpeedInRight = "animate__lightSpeedInRight";
     const zoomInRight = "animate__zoomInRight";
-
-
-    //#contacts
-    const contactsText = document.querySelector('.contacts__text');
-    const contactsMap = document.querySelector('.contacts__map');
-    if (contactsText) {
-        contactsText.classList.add(animateClass);
-        animate([contactsText], backInLeft)
-    }
-    if (contactsMap) {
-        contactsMap.classList.add(animateClass);
-        animate([contactsMap], backInRight);
-    }
-
-    // #about
-    const aboutText = document.querySelector('.about__text');
-    const aboutImage = document.querySelector('.about__image');
-    if (aboutText) {
-        aboutText.classList.add(animateClass);
-        animate([aboutText], backInLeft);
-    }
-    if (aboutImage) {
-        aboutImage.classList.add(animateClass);
-        animate([aboutImage], backInRight);
-    }
-
-
-    // #stages
-    const stagesCards = document.querySelector('.stages__cards');
-    if (stagesCards) {
-        for (let i = 0; i < stagesCards.children.length; i++) {
-            const elem = stagesCards.children[i];
-            elem.classList.add(animateClass);
-            if (i === 0 || i === 1) {
-                animate([elem], bounceInDown);
-            }
-            if (i === 2 || i === 3) {
-                elem.classList.add(delay03);
-                animate([elem], bounceInUp);
-            }
-        }
-    }
-
-    // #services
-    const servCards = document.querySelector(".services__cards");
-    if (servCards) {
-        for (let i = 0; i < servCards.children.length; i++) {
-            const elem = servCards.children[i];
-            elem.classList.add(animateClass);
-            if (i % 2 === 0) {
-                animate([elem], backInLeft)
-            }
-            if (i % 2 !== 0) {
-                elem.classList.add(delay03);
-                animate([elem], backInRight);
-            }
-        }
-    }
+    const zoomInLeft = "animate__zoomInLeft";
 
     // #hero
-    const heroImg = document.querySelector(".hero__image");
-    if (heroImg) {
-        heroImg.classList.add(animateClass);
-        animate([heroImg], backInRight);
+    const heroText = document.querySelectorAll(".hero__text");
+    if (heroText) animate(heroText, backInLeft);
+
+    // #about
+    const aboutText = document.querySelectorAll(".about__text");
+    const aboutImage = document.querySelectorAll(".about__image");
+    if (aboutText) {
+        animate(aboutText, backInLeft);
+    }
+    if (aboutImage) {
+        animate(aboutImage, backInRight);
     }
 
-    const heroText = document.querySelector(".hero__text");
-    if (heroText) {
-        for (let i = 0; i < heroText.children.length; i++) {
-            const elem = heroText.children[i];
-            elem.classList.add(animateClass);
-            if (i === 1) {
-                elem.classList.add(delay03);
-            }
-            if (i === 2) {
-                elem.classList.add(delay06);
-            }
-        }
-        animate(Array.from(heroText.children), zoomIn);
+    // #rooms
+    const roomsCard1 = document.querySelectorAll("#room1");
+    const roomsCard2 = document.querySelectorAll("#room2");
+    if (roomsCard1) animate(roomsCard1, zoomInLeft);
+    if (roomsCard2) animate(roomsCard2, zoomInRight);
+
+    // #laundry
+    const laundryText = document.querySelectorAll(".laundry__text");
+    const laundryImage = document.querySelectorAll(".laundry__image");
+    if (aboutText) {
+        animate(laundryText, backInLeft);
+    }
+    if (aboutImage) {
+        animate(laundryImage, backInRight);
+    }
+
+    // #contacts
+    const contactsText = document.querySelectorAll(".contacts__text");
+    const contactsMap = document.querySelectorAll(".contacts__map");
+    if (contactsText) {
+        animate(contactsText, backInLeft);
+    }
+    if (contactsMap) {
+        animate(contactsMap, backInRight);
     }
 
     window.addEventListener("scroll", () => {
-        if (heroImg) animate([heroImg], backInRight);
-        if (heroText) animate(Array.from(heroText.children), zoomIn);
-        if (servCards) {
-            for (let i = 0; i < servCards.children.length; i++) {
-                const elem = servCards.children[i];
-                if (i % 2 === 0) {
-                    animate([elem], backInLeft);
-                }
-                if (i % 2 !== 0) {
-                    animate([elem], backInRight);
-                }
-            }
-        }
-        if (stagesCards) {
-            for (let i = 0; i < stagesCards.children.length; i++) {
-                const elem = stagesCards.children[i];
-                if (i === 0 || i === 1) {
-                    animate([elem], bounceInDown);
-                }
-                if (i === 2 || i === 3) {
-                    animate([elem], bounceInUp);
-                }
-            }
-        }
+        if (heroText) animate(heroText, backInLeft);
+
         if (aboutText) {
-            animate([aboutText], backInLeft);
+            animate(aboutText, backInLeft);
         }
         if (aboutImage) {
-            animate([aboutImage], backInRight);
+            animate(aboutImage, backInRight);
         }
         if (contactsText) {
-            animate([contactsText], backInLeft);
+            animate(contactsText, backInLeft);
         }
         if (contactsMap) {
-            animate([contactsMap], backInRight);
+            animate(contactsMap, backInRight);
         }
     });
 });

@@ -17,7 +17,7 @@
                     <li class="nav__item-header"><a href="#contacts">Контакты</a></li>
                 </ul>
             </div>
-            <a class="header__phone" href="tel:+7 920 007-65-26">+7(920)007-65-26</a>
+            <a class="header__phone" href="tel:+7 920 007-65-26">+7 920 007-65-26</a>
         </div>
     </div>
 </header>

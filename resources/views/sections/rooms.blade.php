@@ -2,7 +2,7 @@
     <div class="rooms containers">
         <h2>Номерные отделения</h2>
         <div class="rooms__cards">
-            <div class="rooms__card" id="room1">
+            <div class="rooms__card animate__animated" id="room1">
                 <div class="rooms__img">
                     <picture>
                         <source srcset="{{ asset('assets/img/room1-1920.jpg') }}" media="(min-width: 1025px)">
@@ -18,7 +18,7 @@
                     <button id="popUp"  class="btn">Стоимость</button>
                 </div>
             </div>
-            <div class="rooms__card" id="room2">
+            <div class="rooms__card animate__animated" id="room2">
                 <div class="rooms__img">
                     <picture>
                         <source srcset="{{ asset('assets/img/room2-1920.jpg') }}" media="(min-width: 1025px)">
