@@ -1,10 +1,10 @@
 (function () {
-    const buttons = document.querySelectorAll('#popAp')
+    const buttons = document.querySelectorAll('#popUp')
     const modalForm = document.getElementById('servicesPopAp')
     const close = document.querySelector(".closeForm")
 
     function openModal() {
-
+        console.log('open modal');
         modalForm.style.display = "block";
         document.querySelector('body').classList.add('lock')
         close.onclick = () => {

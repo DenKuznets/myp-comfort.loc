@@ -20,7 +20,7 @@
                         <p class="bold">с 19.30 до 21.30</p>
                     </div>
                 </div>
-                <button id="popAp" class="btn bath__btn">
+                <button id="popUp" class="btn bath__btn">
                     Стоимость
                 </button>
             </div>

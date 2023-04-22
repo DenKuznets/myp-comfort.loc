@@ -9,17 +9,18 @@
         <div class="footer__block2">
             <nav class="footer__nav">
                 <ul>
-                    <li><a href="">О компании</a></li>
-                    <li><a href="">Бани</a></li>
-                    <li><a href="">Прачечная</a></li>
-                    <li><a href="">Информация</a></li>
-                    <li><a href="">Контакты</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#baths">Бани</a></li>
+                    <li><a href="#laundry">Прачечная</a></li>
+                    <li><a href="#info">Информация</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
             <div class="footer__block2-pa">
                 <div class="policy">Политика конфиденциальности</div>
-                <div class="alexmedia">Сайт разработан компанией <a href="">ALEX–MEDIA</a> </div>
+                <div class="alexmedia">Сайт разработан компанией <a href="https://alex-media.ru/">ALEX–MEDIA</a> </div>
             </div>
         </div>
     </div>
+    @include('layouts.popup') 
 </footer>

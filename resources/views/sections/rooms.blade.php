@@ -15,7 +15,7 @@
                 </div>
                 <div class="rooms__text">
                     <h4>Русская парная + бассейн</h4>
-                    <button class="btn">Стоимость</button>
+                    <button id="popUp"  class="btn">Стоимость</button>
                 </div>
             </div>
             <div class="rooms__card">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="rooms__text">
                     <h4>Русская парная + обливная бочка</h4>
-                    <button class="btn">Стоимость</button>
+                    <button id="popUp" class="btn">Стоимость</button>
                 </div>
             </div>
         </div>

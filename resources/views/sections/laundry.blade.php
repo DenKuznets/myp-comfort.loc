@@ -20,7 +20,7 @@
                          вещей</h4>
                  </div>
                  <h3>глажение прямого белья</h3>
-                 <button class="btn">Стоимость</button>
+                 <button id="popUp" class="btn">Стоимость</button>
              </div>
              <div class="laundry__image">
                  <div class="laundry__image-row laundry__image-row-top">

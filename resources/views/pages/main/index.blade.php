@@ -13,7 +13,7 @@
             @include('../sections.info')
         </div>
         <div class="mask mask2">
-            <div class="baths">
+            <div id="baths" class="baths">
                 <h2>НАШИ БАНИ</h2>
                 <div class="baths__container">
                     @include('../sections.bath2')
