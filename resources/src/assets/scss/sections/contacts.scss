@@ -7,19 +7,19 @@
   &__text {
     position: absolute;
     top: 112px;
-    left: 10vw;
+    left: -1vw;
     display: flex;
     justify-content: center;
     min-height: 380px;
     z-index: 1;
 
-    @media only screen and (max-width: $px1024) {
-      left: 30px;
-    }
-
     @media only screen and (max-width: $px768) {
       position: static;
       max-width: unset;
+    }
+
+    @media only screen and (max-width: $px360) {
+      min-height: 400px;
     }
 
     &-container {
@@ -33,12 +33,19 @@
         position: absolute;
         width: 100vw;
         max-width: unset;
+        padding: 70px 20px 80px;
       }
+      
 
     }
 
     h2 {
       margin-bottom: 40px;
+      @media only screen and (max-width: $px480) {
+        font-weight: 500;
+          font-size: 50px;
+          line-height: 130%;
+      }
     }
 
     a:first-of-type {

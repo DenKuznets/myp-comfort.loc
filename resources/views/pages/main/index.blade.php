@@ -16,7 +16,6 @@
             <div class="baths">
                 <h2>НАШИ БАНИ</h2>
                 <div class="baths__container">
-
                     @include('../sections.bath2')
                     @include('../sections.bath3')
                 </div>
