@@ -22,5 +22,8 @@
             </div>
         </div>
     </div>
-    @include('layouts.popup') 
+    @include('layouts.popupBath') 
+    @include('layouts.popupRoom1') 
+    @include('layouts.popupRoom2') 
+    @include('layouts.popupLaundry') 
 </footer>
