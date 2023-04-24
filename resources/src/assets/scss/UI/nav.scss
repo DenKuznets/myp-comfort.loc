@@ -1,6 +1,6 @@
 .header__nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 740px;
   width: 100%;
 }
@@ -8,14 +8,15 @@
 .nav__list-header {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  column-gap: 40px;
+  // justify-content: space-between;
   margin: auto;
-  padding: 0 10px;
+  // padding: 0 10px;
   max-height: 200px;
   background-color: $bg-white;
   list-style-type: none;
 
-  @media (max-width: $px1024) {
+  @media (max-width: $navhide) {
     max-height: 0;
     min-height: 0;
     overflow: hidden;

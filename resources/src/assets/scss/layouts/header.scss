@@ -8,7 +8,7 @@
   padding: 0 30px;
 
 
-  @media (max-width: $px1024) {
+  @media (max-width: $navhide) {
     position: absolute;
   }
 
@@ -58,7 +58,7 @@
   white-space: nowrap;
   transition: all 0.4s;
 
-  @media (max-width: $px1024) {
+  @media (max-width: $navhide) {
     margin-right: 90px;
   }
 

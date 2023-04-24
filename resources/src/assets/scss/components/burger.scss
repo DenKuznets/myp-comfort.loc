@@ -11,7 +11,7 @@
     border: none;
     padding: 0;
 
-    @media (max-width: $px1024) {
+    @media (max-width: $navhide) {
         display: block;
 
         &.burger-hide {
@@ -31,7 +31,7 @@
 }
 
 .burger-show {
-    @media (max-width: $px1024) {
+    @media (max-width: $navhide) {
         display: block;
     }
 }

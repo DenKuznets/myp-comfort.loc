@@ -71,7 +71,7 @@ main {
 }
 
 .mask1 {
-    background-image: url(../../../../../public/assets/img/mask1.svg);
+    background-image: url('../assets/img/mask1.svg');
     // outline: 1px solid black;
     background-position: center left;
 
@@ -101,7 +101,7 @@ main {
     background:
         linear-gradient(0deg, rgba(255, 255, 255, 0.2),
             rgba(255, 255, 255, 0.2)),
-        url(../../../../../public/assets/img/mask2.jpg);
+         url('../assets/img/mask2.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,13 +110,13 @@ main {
 }
 
 .mask3 {
-    background-image: url(../../../../../public/assets/img/mask3.svg);
+    background-image: url('../assets/img/mask3.svg');
     background-position: right 100%;
     background-size: auto 100%;
 }
 
 .mask4 {
-    background-image: url(../../../../../public/assets/img/mask4.svg);
+    background-image: url('../assets/img/mask4.svg');
     // outline: 1px solid black;
     background-position: left 79%;
 
