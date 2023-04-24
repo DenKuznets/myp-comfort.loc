@@ -20,10 +20,11 @@
                 </ul>
             </nav>
             <div class="footer__block2-pa">
-                <div class="policy">Политика конфиденциальности</div>
-                <div class="alexmedia">Сайт разработан компанией <a href="https://alex-media.ru/">ALEX–MEDIA</a> </div>
+                <div class="footer__block2-pa-policy">Политика конфиденциальности</div>
+                <div class="footer__block2-pa-alexmedia">Сайт разработан компанией <a href="https://alex-media.ru/">ALEX–MEDIA</a> </div>
             </div>
         </div>
+        <div class="footer__disclaimer">Цены на сайте не являются публичной офертой</div>
     </div>
     @include('layouts.popupBath') 
     @include('layouts.popupRoom1') 
