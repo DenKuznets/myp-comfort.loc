@@ -9,11 +9,11 @@ html {
 
 body {
     position: relative;
-    // overflow-x: hidden;
-    // -webkit-overflow-x: hidden;
-    // -moz-overflow-x: hidden;
-    // -ms-overflow-x: hidden;
-    // -o-overflow-x: hidden;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    -o-overflow-x: hidden;
     font-family: 'Open Sans';
     background: $bg-white;
     color: $font-black;
