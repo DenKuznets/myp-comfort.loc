@@ -20,7 +20,7 @@
                 </ul>
             </nav>
             <div class="footer__block2-pa">
-                <div class="footer__block2-pa-policy">Политика конфиденциальности</div>
+                <div class="footer__block2-pa-policy"><a href="#">Политика конфиденциальности</a></li></div>
                 <div class="footer__block2-pa-alexmedia">Сайт разработан компанией <a href="https://alex-media.ru/">ALEX–MEDIA</a> </div>
             </div>
         </div>

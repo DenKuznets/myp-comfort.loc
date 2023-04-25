@@ -9,6 +9,7 @@ if (document.querySelector(".bathSwiper")) {
         slidesPerView: "auto",
         pagination: {
             el: ".swiper-pagination",
+            clickable: true,
         },
     });
 }

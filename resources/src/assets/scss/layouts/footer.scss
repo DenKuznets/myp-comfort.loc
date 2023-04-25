@@ -1,6 +1,7 @@
 #footer {
     position: relative;
     padding: 0 30px;
+    background-color: #fff;
 
     @media (max-width: $px768) {
         padding: 0 20px;
@@ -55,6 +56,12 @@
             }
 
             &-policy {
+                a {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 160%;
+                }
+
                 @media only screen and (max-width: $px1024) {
                     margin-bottom: 30px;
                 }
@@ -102,6 +109,7 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 160%;
+
         @media only screen and (max-width: $px1024) {
             text-align: center;
             margin-top: 30px;
