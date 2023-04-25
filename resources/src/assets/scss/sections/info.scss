@@ -79,6 +79,9 @@
                 font-size: 20px;
                 line-height: 27px;
                 color: $font-brown;
+                &:hover {
+                    color: $font-red;
+                }
             }
 
             p {
