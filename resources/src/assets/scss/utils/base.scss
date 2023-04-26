@@ -104,6 +104,7 @@ main {
     background-image: url('../assets/img/mask4.svg');
     // outline: 1px solid black;
     background-position: left 79%;
+    transform-style: preserve-3d;
 
     @media only screen and (max-width: $px480) {
         background-position: left 5%;
