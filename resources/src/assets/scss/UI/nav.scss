@@ -9,11 +9,9 @@
   display: flex;
   width: 100%;
   column-gap: 40px;
-  // justify-content: space-between;
   margin: auto;
-  // padding: 0 10px;
   max-height: 200px;
-  background-color: $bg-white;
+  background-color: #fff;
   list-style-type: none;
 
   @media (max-width: $navhide) {
