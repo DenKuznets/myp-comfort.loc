@@ -86,7 +86,7 @@ main {
     background:
         linear-gradient(0deg, rgba(255, 255, 255, 0.2),
             rgba(255, 255, 255, 0.2)),
-         url('../assets/img/mask2.jpg');
+        url('../assets/img/mask2.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,7 +159,7 @@ h1 {
         line-height: 130%;
         text-align: center;
     }
-    
+
 }
 
 h2 {
@@ -249,11 +249,10 @@ img {
 .baths {
     display: flex;
     flex-direction: column;
-    // gap: 30px;
     align-items: center;
     padding-bottom: 80px;
 
-    &__container{
+    &__container {
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -265,3 +264,10 @@ img {
     }
 }
 
+.table-container {
+    overflow-y: auto;
+}
+
+.popup {
+    max-height: 80vh;
+}
