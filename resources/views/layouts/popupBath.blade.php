@@ -1,5 +1,5 @@
 <div id="bathPopUp" class="modalForm">
-    <div class="modal-content-form baths__popup popup">
+    <div class="modal-content-form baths__popup popup-height">
         <span class="closeForm">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -8,8 +8,8 @@
             </svg>
         </span>
 
-        <h2>НАШИ БАНИ</h2>
         <div class="table-container">
+        <h2>НАШИ БАНИ</h2>
             <table>
                 <tr>
                     <th></th>
@@ -42,9 +42,9 @@
                     <td>БЕСПЛАТНО</td>
                 </tr>
             </table>
-        </div>
-        <p>*К льготной категории относятся: участники, инвалиды ВОВ, вдовы участников ВОВ и лица к ним приравненные;
-            инвалиды 1, 2 групп; труженики тыла;</p>
+            <p>*К льготной категории относятся: участники, инвалиды ВОВ, вдовы участников ВОВ и лица к ним приравненные;
+                инвалиды 1, 2 групп; труженики тыла;</p>
+            </div>
     </div>
 
 

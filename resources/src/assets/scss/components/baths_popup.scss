@@ -1,34 +1,27 @@
-#bathPopUp {
-    height: 100vh;
-    max-height: 100vh;
-}
-
 .baths__popup {
     max-width: min(1260px, 90%);
     min-width: 530px;
-   
-
+    max-height: 85vh;
+    height: 100%;
 
     @media only screen and (max-width: $px1024) {
         max-width: 100%;
         padding: 15px;
     }
 
-    p{
+    p {
         margin-top: 40px;
     }
 
     h2 {
         text-align: center;
         margin-bottom: 40px;
-    }  
+    }
 
     table {
         display: block;
         border-collapse: collapse;
         width: 100%;
-        // margin-bottom: 40px;
-        max-height: 50vh;
 
         @media only screen and (max-width: $px1024) {
             word-break: break-all;
@@ -66,8 +59,6 @@
     }
 
     tr:last-child {
-        // background-color: #dddddd;
-
         td {
             font-weight: 800;
         }

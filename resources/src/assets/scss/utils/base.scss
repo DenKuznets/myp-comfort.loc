@@ -266,8 +266,6 @@ img {
 
 .table-container {
     overflow-y: auto;
+    max-height: 100%;
 }
 
-.popup {
-    max-height: 80vh;
-}

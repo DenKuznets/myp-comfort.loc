@@ -1,8 +1,9 @@
 .rooms__popup {
     max-width: min(1260px, 90%);
     min-width: 530px;
+    max-height: 85vh;
+    height: min(500px, 100%);
 
-    // max-width: 80%;
     @media only screen and (max-width: $px1024) {
         max-width: 100%;
         padding: 15px;

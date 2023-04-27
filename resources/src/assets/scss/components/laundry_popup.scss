@@ -1,6 +1,9 @@
 .laundry__popup {
     max-width: min(1100px, 90%);
     min-width: 530px;
+    max-height: 85vh;
+    height: 100%;
+
     @media only screen and (max-width: $px1024) {
         max-width: 100%;
         padding: 15px;
@@ -16,10 +19,9 @@
         border-collapse: collapse;
         width: 100%;
         margin-bottom: 40px;
-        
+
 
         @media only screen and (max-width: $px1024) {
-            // word-wrap: break-word;
             word-break: break-all;
         }
     }
@@ -35,11 +37,12 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 160%;
+
         @media only screen and (max-width: $px768) {
             padding: 5px 10px;
         }
 
-        &:first-child{
+        &:first-child {
             font-weight: 800;
             max-width: 400px;
         }
