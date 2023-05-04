@@ -13,7 +13,7 @@ function handleWitdhChange() {
             scrollMenu();
         });
     } else {
-        // navbar.classList.remove("navbar_scrolled");
+        navbar.classList.remove("navbar_scrolled");
     }
 
     function scrollMenu() {
