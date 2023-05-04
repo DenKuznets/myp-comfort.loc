@@ -8,11 +8,10 @@
     background: rgba(243, 238, 235, 0.8);
     width: 100%;
     height: 610px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
     overflow: hidden;
     
     @media (max-width: $bath-column) {
-      border-radius: 0px 0px 10px 10px ;
       flex-direction: column;
       align-items: center;
       text-align: center;
