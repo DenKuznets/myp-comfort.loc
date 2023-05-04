@@ -1,7 +1,6 @@
 const navbar = document.querySelector(".fixedHeader");
 
-const mQuery = window.matchMedia('(min-width: 1165px)');
-
+const mQuery = window.matchMedia("(min-width: 1025px)");
 
 function handleWitdhChange() {
     if (mQuery.matches) {
@@ -17,14 +16,14 @@ function handleWitdhChange() {
     }
 
     function scrollMenu() {
-        if (scrollY > 200 && window.innerWidth >= 1165) {
+        if (scrollY > 200 && window.innerWidth >= 1025) {
             navbar.classList.add("navbar_scrolled");
         } else {
             navbar.classList.remove("navbar_scrolled");
         }
-    } 
+    }
 }
-
-handleWitdhChange();
-
-mQuery.addEventListener('change', handleWitdhChange);
+if (navbar) {
+    handleWitdhChange();
+    mQuery.addEventListener("change", handleWitdhChange);
+}

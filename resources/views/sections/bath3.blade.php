@@ -3,7 +3,7 @@
         <div class="bath__content">
             <div class="animate__animated bath__text">
                 <h3>Городская баня № 3</h3>
-                <h4>г. Арзамас, Короленко, 9/2</h4>
+                <h4>г. Арзамас, ул. Короленко, 9/2</h4>
                 <p>Русская парная, веники</p>
                 <div class="bath__schedule">
                     <div class="bath__schedule-column">

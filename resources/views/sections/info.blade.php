@@ -17,7 +17,7 @@
                     @endif
                     <div class="info__card-text">
                         <p class="bold @if($i === 0)important-header @endif">{{ $new->title }}</p>
-                        <p style="padding-bottom: 20px; margin-bottom: auto">{{ $new->description }}</p>
+                        <p style="padding-bottom: 20px; margin-bottom: auto">{{ cropStr($new->description) }}</p>
                         <a href="{{ route('show-news', ['news' => $new->slug]) }}" class="info__card-text-details">Подробнее</a>
                     </div>
                 </div>

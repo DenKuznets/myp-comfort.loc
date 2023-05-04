@@ -1,5 +1,5 @@
 .fixedHeader.navbar_scrolled {
-    @media only screen and (min-width: 1165px) {
+    @media only screen and (min-width: $navhide) {
 
         padding-top: 5px;
         padding-bottom: 5px;
