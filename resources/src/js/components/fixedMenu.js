@@ -1,7 +1,7 @@
 (() => {
-    const navbar = document.getElementById("fixedHeader");
+    const navbar = document.querySelector(".fixedHeader");
 
-    const mQuery = window.matchMedia('(min-width: 1061px)')
+    const mQuery = window.matchMedia('(min-width: 1065px)')
 
     if (mQuery.matches) {
         if (window.scrollY >= 200) {

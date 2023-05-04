@@ -51,17 +51,24 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputFile">Миниатюра статьи</label>
-                                <div class="input-group">
-                                    <div class="custom-file">
-                                        <input name="img" type="file" class="custom-file-input" id="exampleInputFile">
-                                        <label class="custom-file-label" for="exampleInputFile">Выбрать</label>
-                                        @error("img")
-                                        <p class="text-danger">{{ $message  }}</p>
-                                        @enderror
-                                    </div>
-                                </div>
+                                <label for="articleInputKey">Ключевые слова(перечислите через запятую)</label>
+                                <input name="keywords" type="text" class="form-control" id="articleInputKey"  value="{{ old("keywords") }}">
+                                @error("keywords")
+                                <p class="text-danger">{{ $message }}</p>
+                                @enderror
                             </div>
+{{--                            <div class="form-group">--}}
+{{--                                <label for="exampleInputFile">Миниатюра статьи</label>--}}
+{{--                                <div class="input-group">--}}
+{{--                                    <div class="custom-file">--}}
+{{--                                        <input name="img" type="file" class="custom-file-input" id="exampleInputFile">--}}
+{{--                                        <label class="custom-file-label" for="exampleInputFile">Выбрать</label>--}}
+{{--                                        @error("img")--}}
+{{--                                        <p class="text-danger">{{ $message  }}</p>--}}
+{{--                                        @enderror--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                             <div class="form-check">
                                 <input name="status_view" type="checkbox" class="form-check-input" id="exampleCheck1" checked>
                                 <label class="form-check-label" for="exampleCheck1">Показывать на сайте?</label>
@@ -86,7 +93,7 @@
 @endsection
 
 @section("scripts")
-    <script src="{{ asset("assets/admin/plugins/ckeditor/ckeditor.js") }}"></script>
+    <script src="{{ asset("admin/plugins/ckeditor/ckeditor.js") }}"></script>
     <script>
         var options = {
             filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',

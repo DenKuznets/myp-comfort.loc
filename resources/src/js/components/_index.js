@@ -1,6 +1,6 @@
 // import './burger'
 // import './sliders'
-// import './fixedMenu'
+import './fixedMenu'
 //import './scroll'
 //import './micromodal'
 // import './sendAjax'

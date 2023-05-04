@@ -12,26 +12,27 @@ use Illuminate\Support\Facades\Mail;
 class PageController extends Controller
 {
     public function index (){
-        return view("pages.main.index");
+        $news = News::all()->sortByDesc('id')->take(3);
+        return view("pages.main.index", compact('news'));
     }
 
-    public function formContacts(Request $request)
-    {
-        $mail = new \stdClass();
-        $mail->name = $request->name;
-        $mail->phone = $request->phone;
-
-        if (Mail::to('autohopenn@yandex.ru')->send(new ContactsForm($mail))) {
-            $validated = $request->validate([
-                'name' => 'required|max:50',
-                'phone' => 'required',
-            ]);
-//            Contact::create($validated);
-            return response()->json($request);
-        } else {
-            return response()->json(["answer" => "error"]);
-        }
-    }
+//    public function formContacts(Request $request)
+//    {
+//        $mail = new \stdClass();
+//        $mail->name = $request->name;
+//        $mail->phone = $request->phone;
+//
+//        if (Mail::to('autohopenn@yandex.ru')->send(new ContactsForm($mail))) {
+//            $validated = $request->validate([
+//                'name' => 'required|max:50',
+//                'phone' => 'required',
+//            ]);
+////            Contact::create($validated);
+//            return response()->json($request);
+//        } else {
+//            return response()->json(["answer" => "error"]);
+//        }
+//    }
 
     public function politics() {
         return view('pages.politics.index');

@@ -9,10 +9,10 @@
     <title>@yield("title")</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <link rel="stylesheet" href="{{ asset("assets/admin/plugins/fontawesome-free/css/all.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("admin/plugins/fontawesome-free/css/all.min.css") }}">
     @yield("css")
-    <link rel="stylesheet" href="{{ asset("assets/admin/css/adminlte.min.css") }}">
-    <link rel="stylesheet" href="{{ asset("assets/admin/css/base.css") }}">
+    <link rel="stylesheet" href="{{ asset("admin/css/adminlte.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("admin/css/base.css") }}">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -39,10 +39,10 @@
     </footer>
 </div>
 
-<script src="{{ asset("assets/admin/plugins/jquery/jquery.min.js") }}"></script>
-<script src="{{ asset("assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js") }}"></script>
+<script src="{{ asset("admin/plugins/jquery/jquery.min.js") }}"></script>
+<script src="{{ asset("admin/plugins/bootstrap/js/bootstrap.bundle.min.js") }}"></script>
 @yield("scripts")
-<script src="{{ asset("assets/admin/js/adminlte.min.js") }}"></script>
+<script src="{{ asset("admin/js/adminlte.min.js") }}"></script>
 </body>
 </html>
 

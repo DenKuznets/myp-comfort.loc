@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get("/", [\App\Http\Controllers\PageController::class, "index"])->name('index');
 Route::get("/politics", [\App\Http\Controllers\PageController::class, "politics"])->name('politics');
-Route::post('/form-contacts', [\App\Http\Controllers\PageController::class, "formContacts"])->name("form-contacts");
 Route::get("/news", [\App\Http\Controllers\NewsController::class, 'index'])->name("news-index");
-Route::get("/portfolio", [\App\Http\Controllers\PortfolioController::class, 'index'])->name("portfolio");
-Route::get("/certificates", [\App\Http\Controllers\CertificateController::class, 'index'])->name("cert");
 Route::get('/news/{news:slug}', [\App\Http\Controllers\NewsController::class, "show"])->name("show-news");
+//Route::post('/form-contacts', [\App\Http\Controllers\PageController::class, "formContacts"])->name("form-contacts");
+//Route::get("/portfolio", [\App\Http\Controllers\PortfolioController::class, 'index'])->name("portfolio");
+//Route::get("/certificates", [\App\Http\Controllers\CertificateController::class, 'index'])->name("cert");
 
 //Route::get("/home", [\App\Http\Controllers\HomeController::class, "index"])->name("home");
 //Route::post("/home", [\App\Http\Controllers\HomeController::class, "contact"])->name("contact");
@@ -46,3 +46,19 @@ Route::prefix('amg-admin')->group(function () {
 Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
     \UniSharp\LaravelFilemanager\Lfm::routes();
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

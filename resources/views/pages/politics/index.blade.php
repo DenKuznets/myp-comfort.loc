@@ -4,7 +4,7 @@
 @section("content")
     <section id="politics">
         <div class="containers politics">
-            <h1 class="politics__title animate__animated">&mdash; @yield('title') &mdash;</h1>
+            <h1 class="politics__title animate__animated">@yield('title')</h1>
             <div class="politics__list">
                 <p>1. Общие положения</p>
 

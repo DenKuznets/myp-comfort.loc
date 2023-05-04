@@ -10,6 +10,8 @@ export default defineConfig({
                 "resources/css/app.css",
                 "resources/js/app.js",
                 "resources/src/assets/main.scss",
+                "resources/sass/app.scss",
+                "resources/js/app.js"
             ],
             refresh: true,
         }),

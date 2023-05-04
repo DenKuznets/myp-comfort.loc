@@ -38,13 +38,13 @@ class AdminNewsController extends AdminController
      */
     public function store(NewsRequest $request)
     {
-        $path = "uploads/news/thumbs";
+//        $path = "uploads/news/thumbs";
         $validate = $request->validated();
-        $newFileName = time() . "." . $validate["img"]->clientExtension();
-        $validate["img"] = $path . "/" .$newFileName;
-        $validate["status_view"] = ($validate["status_view"]) ? true : false;
+//        $newFileName = time() . "." . $validate["img"]->clientExtension();
+//        $validate["img"] = $path . "/" .$newFileName;
+        $validate["status_view"] = (isset($validate["status_view"])) ? true : false;
         if ($article = News::create($validate)) {
-            $request->file("img")->storeAs($path, $newFileName, "public");
+//            $request->file("img")->storeAs($path, $newFileName, "public");
             session()->flash('success', 'Новость "' . $article->title . '" успешно добавленна');
             return redirect()->route('news.index');
         }

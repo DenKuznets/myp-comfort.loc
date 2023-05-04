@@ -35,6 +35,20 @@
 
         @media (max-width: $px768) {}
 
+        &-title {
+            font-size: 45px;
+        }
+
+        &-dop {
+            margin-top: 20px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 27px;
+            color: #490D0C;
+        }
+
         h2 {
             margin-bottom: 40px;
 
