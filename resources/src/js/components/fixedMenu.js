@@ -8,11 +8,10 @@
             scrollMenu();
         }
 
-
-        window.addEventListener("scroll", e => {
+        window.addEventListener("scroll", (e) => {
             scrollMenu();
-        })
-    }
+        });
+    } 
 
     function scrollMenu () {
         if(scrollY > 200) {
@@ -20,5 +19,5 @@
         } else {
             navbar.classList.remove("navbar_scrolled");
         }
-    }
+    } 
 })()
